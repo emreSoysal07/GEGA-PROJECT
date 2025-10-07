@@ -1,17 +1,25 @@
 {
-  "dependencies": {
-    "@tailwindcss/cli": "^4.1.13",
-    "tailwindcss": "^4.1.13"
-  },
-  "name": "gega-project",
+  "name": "tailwindcssproject",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "devDependencies": {},
   "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
     "watch": "npx @tailwindcss/cli -i ./src/input.css -o ./src/output.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emreSoysal07/GEGA-PROJECT.git"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/emreSoysal07/GEGA-PROJECT/issues"
+  },
+  "homepage": "https://github.com/emreSoysal07/GEGA-PROJECT#readme",
+  "dependencies": {
+    "@tailwindcss/cli": "^4.1.14",
+    "tailwindcss": "^4.1.14"
+  }
 }
