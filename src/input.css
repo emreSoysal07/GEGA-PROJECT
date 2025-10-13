@@ -1,23 +1,41 @@
 @import "tailwindcss";
 
 @theme {
-  --font-smooch: "Smooch Sans", sans-serif;
+  --font-gemunu: "Gemunu Libre", sans-serif;
   --font-open: "Open Sans", sans-serif;
+
+  --color-gega-red: #BC1A45;
+  --color-gega-melon: #FFD369;
+  --color-gega-grey: #DDDDDD;
+  --color-gega-white: #F7F7F7;
+
+  --container-width: 1140px;
 }
 
 @layer components {
-  .font-smooch-400 {
-    font-family: var(--font-smooch);
+
+  .container {
+    margin-inline: auto;
+    max-width: var(--container-width);
+  }
+
+  .gega-red { color: var(--color-gega-red); }
+  .gega-melon { color: var(--color-gega-melon); }
+  .gega-grey { color: var(--color-gega-grey); }
+  .gega-white { color: var(--color-gega-white); }
+
+  .font-gemunu-400 {
+    font-family: var(--font-gemunu);
     font-weight: 400;
   }
 
-  .font-smooch-700 {
-    font-family: var(--font-smooch);
+  .font-gemunu-700 {
+    font-family: var(--font-gemunu);
     font-weight: 700;
   }
 
   .font-open-400 {
-    font-family: var(--font-open);
+    font-family: var(--font-gemunu);
     font-weight: 400;
   }
 }
